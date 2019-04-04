@@ -1,0 +1,54 @@
+// ======================================================
+// Abstracts :: Variables
+// ======================================================
+
+// Paths
+$path-image: '../images';
+$path-fonts: '../fonts';
+
+// Fonts
+// >> Font-family
+$font-family-base : 'Hiragino Sans', 'Noto Sans Japanese', 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic Pro', '游ゴシック', 'メイリオ', 'MS ゴシック', 'sans-serif';
+// >> Font-size
+$font-size-xsmall : 11px;
+$font-size-small  : 12px;
+$font-size-base   : 13px;
+$font-size-medium : 16px;
+$font-size-large  : 18px;
+// >> Font-weight
+$font-weight-light: 300;
+$font-weight-base : 400;
+$font-weight-medium : 500;
+$font-weight-bold : 600;
+
+// Borders
+$border-radius-small : 2px;
+$border-radius-base  : 4px;
+$border-radius-medium: 8px;
+
+// z-index
+$z-indexes: (
+  base    : 1,
+  under   : -1,
+  modal   : 1001,
+  sidebar : 1000
+);
+
+// Color
+
+$cl-orange: #ff6b00;
+$cl-dark-orange: #e46000;
+$cl-light-orange: #ff9359;
+$cl-black: #373737;
+$cl-dark-gray: #888;
+$cl-gray: #b5b5b5;
+$cl-light-gray: #f0f0f0;
+$cl-blue: #3471eb;
+$cl-dark-blue: #083ea9;
+$cl-white: #fff;
+$cl-red: #ec3f3f;
+$cl-green: #43aa49;
+$cl-pink: #f05151;
+$cl-light-pink: #fa8383;
+$cl-sky: #4a90e2;
+$cl-yellow: #f1a336;
